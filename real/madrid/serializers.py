@@ -10,7 +10,8 @@ class UserProfileSerializers(serializers.ModelSerializer):
 
 
 
-class UserProfileSerializers(serializers.ModelSerializer):
+
+class CategorySerializers(serializers.ModelSerializer):
     class Meta:
-        model = UserProfile
-        fields = ['phone_number', 'age', 'profile_picture', 'gender']
+        model = Category
+        fields =['category_name']
