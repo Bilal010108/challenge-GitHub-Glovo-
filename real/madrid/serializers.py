@@ -15,3 +15,7 @@ class CategorySerializers(serializers.ModelSerializer):
     class Meta:
         model = Category
         fields =['category_name']
+
+
+
+class StoreSerializers()
